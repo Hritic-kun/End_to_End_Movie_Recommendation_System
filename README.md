@@ -63,6 +63,11 @@ A content-based movie recommender system that suggests movies similar to the one
 
 Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
+## Data Sources & Attribution
+
+This project uses data from [IMDb](https://www.imdb.com/) and [The Movie Database (TMDB)](https://www.themoviedb.org/).
+This product uses the TMDB API but is not endorsed or certified by TMDB.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
