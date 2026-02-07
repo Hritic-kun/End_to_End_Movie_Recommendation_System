@@ -30,6 +30,11 @@ A content-based movie recommender system that suggests movies similar to the one
 
 2.  Create a virtual environment (optional but recommended):
     ```bash
+    ***You can use uv***
+    There is pyproject.toml file
+    you can directly run
+    uv sync
+    OR
     python -m venv .venv
     # Windows
     .venv\Scripts\activate
