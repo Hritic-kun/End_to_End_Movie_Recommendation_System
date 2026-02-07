@@ -29,7 +29,7 @@ A content-based movie recommender system that suggests movies similar to the one
     ```
 
 2.  Create a virtual environment (optional but recommended):
-    # if going to use uv.lock file (more convenient)
+    ### if going to use uv.lock file (more convenient)
     first install uv using pip or visit uv site: [uv package guide](https://docs.astral.sh/uv/)
     ```bash
     # Using uv
