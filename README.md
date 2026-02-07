@@ -25,7 +25,7 @@ A content-based movie recommender system that suggests movies similar to the one
 1.  Clone the repository:
     ```bash
     git clone https://github.com/yourusername/End_to_End_Movie_Recommendation_System.git
-    cd End-to-End_Movie_Recommender
+    cd End_to_End_Movie_Recommendation_System
     ```
 
 2.  Create a virtual environment (optional but recommended):
