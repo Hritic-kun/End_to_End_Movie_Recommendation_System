@@ -29,15 +29,16 @@ A content-based movie recommender system that suggests movies similar to the one
     ```
 
 2.  Create a virtual environment (optional but recommended):
+    # if going to use uv.lock file (more convenient)
+    first install uv using pip or visit uv site: [uv package guide](https://docs.astral.sh/uv/)
     ```bash
     # Using uv
     There is pyproject.toml file, you can directly run
-    first install uv using pip or visit uv site: [uv package guide](https://docs.astral.sh/uv/)
     check: uv --version
     uv venv .venv
     uv sync (install required packages and dependencies)
-    OR
-    # using python
+    
+    # Or using python
     python -m venv .venv
     # Windows
     .venv\Scripts\activate
@@ -45,7 +46,7 @@ A content-based movie recommender system that suggests movies similar to the one
     source .venv/bin/activate
     ```
 
-3.  Install the required dependencies:
+4.  Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
