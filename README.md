@@ -30,11 +30,14 @@ A content-based movie recommender system that suggests movies similar to the one
 
 2.  Create a virtual environment (optional but recommended):
     ```bash
-    ***You can use uv***
-    There is pyproject.toml file
-    you can directly run
-    uv sync
+    # Using uv
+    There is pyproject.toml file, you can directly run
+    first install uv using pip or visit uv site: [uv package guide](https://docs.astral.sh/uv/)
+    check: uv --version
+    uv venv .venv
+    uv sync (install required packages and dependencies)
     OR
+    # using python
     python -m venv .venv
     # Windows
     .venv\Scripts\activate
